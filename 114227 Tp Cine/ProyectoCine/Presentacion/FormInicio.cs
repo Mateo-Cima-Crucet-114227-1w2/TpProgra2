@@ -16,5 +16,23 @@ namespace ProyectoCine
         {
             InitializeComponent();
         }
+
+        private void aCercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Saliendo","¿Seguro que quieres salir?",MessageBoxButtons.OKCancel,MessageBoxIcon.Question,MessageBoxDefaultButton.Button1)==DialogResult.OK)
+            {
+                this.Close();
+            }
+        }
+
+        private void insertarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

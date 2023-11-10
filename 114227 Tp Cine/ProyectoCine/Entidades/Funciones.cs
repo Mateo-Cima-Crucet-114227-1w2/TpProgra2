@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ProyectoCine.Entidades
 {
-    internal class Funciones
+    public class Funciones
     {
+        public int nroFuncion { get; set; }
+        public int codSala { get; set; }
+        public DateTime fechaHorario { get; set; }
+        public int codPelicula { get; set; }
     }
 }

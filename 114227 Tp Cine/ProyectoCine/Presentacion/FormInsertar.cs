@@ -16,5 +16,10 @@ namespace ProyectoCine.Presentacion
         {
             InitializeComponent();
         }
+
+        private void FormInsertar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
